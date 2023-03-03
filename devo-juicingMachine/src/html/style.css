@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Shantell";
+  src: url("/src/Assets/Fonts/ShantellSans-Medium.ttf");
+}
+@font-face {
+  font-family: "Acme";
+  src: url("/src/Assets/Fonts/Acme-Regular.ttf");
+}
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  background-image: url("../Assets/Images/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.devo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.devo .juicingTitle {
+  font-family: "Shantell";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 77px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.devo .cocktail {
+  display: flex;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.devo .cocktail .cocktails-A {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.devo .cocktail .cocktails {
+  flex-direction: column;
+  text-align: center;
+  z-index: 100;
+}
+.devo .cocktail .cocktails .Image {
+  width: 400px;
+  height: 400px;
+  background-Size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.devo .cocktail .cocktails .Item {
+  margin-top: -4rem;
+  color: #fff;
+  font-family: "Shantell";
+}
+.devo .cocktail .cocktails .Price {
+  margin-top: -1rem;
+  color: green;
+  font-family: "Acme";
+}/*# sourceMappingURL=style.css.map */
